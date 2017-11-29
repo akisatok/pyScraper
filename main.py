@@ -14,10 +14,11 @@ import pyScraper
 
 if __name__ == '__main__':
     # arguments
-    url = 'http://mainichi.jp'
+    url = 'http://www.mainichi.jp'
 #    proxy_url = 'proxy.server.no.basho:0000'
     proxy_url = None
-    cookie_file = 'cookie.txt'
+#    cookie_file = 'cookie.txt'
+    cookie_file = None
     log_file = 'log.txt'
 #    log_file = os.path.devnull
     output_file = 'output.json'
